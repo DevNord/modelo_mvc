@@ -1,0 +1,22 @@
+{
+    "name": "casa/modelomvc",
+    "autoload": {
+        "psr-4": {
+            "Casa\\Modelomvc\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Dan.dev",
+            "email": "daniel.dev2811@gmail.com"
+        }
+    ],
+    "require": {
+        "slim/slim": "4.*",
+        "slim/psr7": "^1.6",
+        "nyholm/psr7": "^1.8",
+        "nyholm/psr7-server": "^1.1",
+        "guzzlehttp/psr7": "^2",
+        "laminas/laminas-diactoros": "^3.3"
+    }
+}
