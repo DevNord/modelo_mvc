@@ -1,9 +1,12 @@
 {
-    "name": "casa/modelomvc",
+    "name": "casa/modelo_mvc",
     "autoload": {
         "psr-4": {
-            "Casa\\Modelomvc\\": "src/"
-        }
+            "Mvc\\": "src/"
+        },
+        "files":[
+            "src/configs/config.php"
+        ]
     },
     "authors": [
         {
@@ -11,6 +14,9 @@
             "email": "daniel.dev2811@gmail.com"
         }
     ],
+    "scripts": {
+        "start": "php -S 127.0.0.1:8003 -t public"
+    },
     "require": {
         "slim/slim": "4.*",
         "slim/psr7": "^1.6",
